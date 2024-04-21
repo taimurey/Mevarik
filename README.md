@@ -33,7 +33,7 @@ The `Settings.json` file contains various settings that control the behavior of 
 - `block_engine_url`: The URL of the BlockEngine server. This is where the Mevarik Sniper will get block data.
 - `message`: The message that will be sent with each tip.
 - `grpc_url`: The URL of the gRPC server. This is where the Mevarik Sniper will send gRPC requests.
-- `buy_wallet`: The private key of the wallet that will be used to buy tips.
+- `buy_wallet`: The private key of the wallet of which funds will be used for sniping.
 - `bot:auth`: The private key of the whitelisted address that the bot will use for authentication.
 - `regions`: An array of regions where the Mevarik Sniper will operate.
 - `subscribe_bundle_results`: A boolean value that determines whether the Mevarik Sniper will subscribe to bundle results.
